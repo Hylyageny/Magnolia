@@ -1166,8 +1166,14 @@ input:checked + .slider:before {
 }
 
 .shop-header {
-    padding: 4rem 2rem 2rem;
+    position: relative;
+    padding: 6rem 3rem 5rem;
     border-bottom: 1px solid var(--border-glass);
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0.4) 100%), url('../images/shop_banner.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--radius-lg);
+    margin: 2rem auto;
 }
 .shop-header h1 {
     font-size: 3.5rem;
