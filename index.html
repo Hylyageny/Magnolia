@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnolia Med Spa | Luxury Aesthetics & Skincare</title>
+    <meta name="description" content="Enhance your natural radiance with Magnolia Med Spa's advanced aesthetic treatments and medical-grade skincare. Book your consultation today.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">MAGNOLIA</a>
+            <div class="nav-links desktop-only">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#treatments" class="nav-link">Treatments</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#members" class="nav-link">Members</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#book" class="btn btn-outline btn-sm desktop-only">Book Now</a>
+                <button class="icon-btn" aria-label="Cart"><i data-lucide="shopping-bag"></i></button>
+                <button class="icon-btn mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Special Offer Banner -->
+    <div class="promo-banner fade-in-up">
+        <span><i data-lucide="sparkles" class="inline-icon"></i> 20% off all Gift Cards! Shop now for the perfect gift. <a href="#" class="promo-link">Shop Here</a></span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-content reveal">
+                <h1 class="hero-title">Beauty is More<br><span class="gold-text">Than Skin Deep.</span></h1>
+                <p class="hero-subtitle">It’s a reflection of confidence, care, and cutting-edge innovation. Our advanced aesthetic treatments are designed to enhance your natural radiance.</p>
+                <div class="hero-cta">
+                    <a href="#book" class="btn btn-primary">Book a Consultation</a>
+                    <a href="#quiz" class="btn btn-transparent">Take the Skin Quiz</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal delay-1">
+                <img src="./images/hero.png" alt="Magnolia Med Spa Luxurious Interior" class="hero-image">
+                <div class="glass-card floating-card">
+                    <i data-lucide="award" class="gold-icon"></i>
+                    <p>Natural, never-overdone results.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features-section reset-padding" id="features">
+        <div class="grid-3 container reveal">
+            <div class="feature-card">
+                <div class="feature-icon"><i data-lucide="activity"></i></div>
+                <h3 class="feature-title">Result-Driven Aesthetics</h3>
+                <p class="feature-text">Advanced treatments customized to smooth imperfections and rejuvenate your skin.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-lucide="droplets"></i></div>
+                <h3 class="feature-title">Medical-Grade Skincare</h3>
+                <p class="feature-text">Curated essentials bringing our in-clinic experience directly to your home.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i data-lucide="target"></i></div>
+                <h3 class="feature-title">Tailored Solutions</h3>
+                <p class="feature-text">Custom treatment plans designed specifically to achieve your skin goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-layout container">
+            <div class="about-image-wrapper reveal">
+                <img src="./images/founder.png" alt="Katy Martin, Founder" class="about-img">
+            </div>
+            <div class="about-content reveal delay-1">
+                <span class="eyebrow">Our Philosophy</span>
+                <h2 class="section-title">Magnolia is a modern beauty brand.</h2>
+                <p class="text-muted mt-4">Built on the belief that when we take care of our skin, we feel confident. Our skin care treatments, clinic atmosphere and product lines are designed to empower you at every stage of your skin care journey.</p>
+                
+                <div class="founder-note mt-6">
+                    <h3 class="founder-title">A Note From Our Founder</h3>
+                    <blockquote class="founder-quote">
+                        "Welcome to Magnolia Medspa, where science meets self-care. I started this journey with a simple belief—that everyone deserves to feel confident in their skin. Our team is passionate about providing results-driven treatments in a warm, welcoming space. Whether you're here for rejuvenation, relaxation, or restoration, we're honored to be part of your wellness journey. Thank you for trusting us."
+                    </blockquote>
+                    <p class="founder-signature mt-4">
+                        Warmly,<br>
+                        <strong style="color:var(--text-main)">Katy Martin</strong><br>
+                        <span class="text-sm border-glass">Founder, Magnolia Medspa</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container reveal">
+            <blockquote class="gold-quote">
+                “Whether it’s for filler, botox, or a facial, I always look forward to my appointment.”
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Bestselling Treatments Section -->
+    <section class="treatments-section" id="treatments">
+        <div class="treatments-layout container">
+            <div class="treatments-collage reveal">
+                <div class="collage-item main-img">
+                    <img src="./images/treatment_1.png" alt="Treatment Process" class="collage-img">
+                </div>
+                <div class="collage-item sub-img-1">
+                    <img src="./images/treatment_2.png" alt="Happy Client" class="collage-img">
+                </div>
+                <div class="collage-item sub-img-2">
+                    <img src="./images/treatment_3.png" alt="Medical Aesthetician" class="collage-img">
+                </div>
+                <div class="glow-effect"></div>
+            </div>
+            <div class="treatments-content reveal delay-1">
+                <span class="eyebrow">Expertise</span>
+                <h2 class="section-title">Our Bestselling <br>Treatments.</h2>
+                <ul class="treatment-list">
+                    <li class="treatment-item">
+                        <span class="treatment-number">01</span>
+                        <div class="treatment-details">
+                            <h4>Botox & Dysport</h4>
+                            <p>Smooth wrinkles and prevent fine lines.</p>
+                        </div>
+                    </li>
+                    <li class="treatment-item">
+                        <span class="treatment-number">02</span>
+                        <div class="treatment-details">
+                            <h4>Microneedling</h4>
+                            <p>Stimulate collagen for a flawless complexion.</p>
+                        </div>
+                    </li>
+                    <li class="treatment-item">
+                        <span class="treatment-number">03</span>
+                        <div class="treatment-details">
+                            <h4>Dermal Fillers</h4>
+                            <p>Restore volume and contour your features.</p>
+                        </div>
+                    </li>
+                     <li class="treatment-item">
+                        <span class="treatment-number">04</span>
+                        <div class="treatment-details">
+                            <h4>Chemical Peels & Sculptra</h4>
+                            <p>Deep rejuvenation and skin tightening.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-8">
+                    <a href="#services" class="btn btn-outline">View All Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Full Service Menu Section -->
+    <section class="services-menu-section" id="services">
+        <div class="container reveal">
+            <div class="pricing-header">
+                <span class="eyebrow">Our Offerings</span>
+                <h2 class="section-title">Complete Treatment Menu</h2>
+            </div>
+            
+            <div class="service-menu-layout">
+                <!-- Categories Sidebar -->
+                <aside class="service-sidebar">
+                    <ul class="service-tabs" id="serviceTabs">
+                        <li class="tab-item active" data-target="cat-events">Events</li>
+                        <li class="tab-item" data-target="cat-consults">Consults & Analysis</li>
+                        <li class="tab-item" data-target="cat-injectables">Injectables, Botox & Filler</li>
+                        <li class="tab-item" data-target="cat-facials">Facials & Advanced</li>
+                        <li class="tab-item" data-target="cat-microneedling">Microneedling</li>
+                        <li class="tab-item" data-target="cat-laser">Laser Treatments</li>
+                        <li class="tab-item" data-target="cat-hydrafacial">HydraFacial</li>
+                        <li class="tab-item" data-target="cat-peels">Peels & Face Reality</li>
+                        <li class="tab-item" data-target="cat-other">PRF, Morpheus8 & Brows</li>
+                    </ul>
+                </aside>
+
+                <!-- Service Content Area -->
+                <div class="service-content-area" id="serviceContent">
+                    
+                    <!-- Events -->
+                    <div class="service-pane active" id="cat-events">
+                        <h3 class="pane-title">Special Events</h3>
+                        
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>5.8.26 DYSPORT ANNIVERSARY EVENT ONLY</h4>
+                                <span class="service-price">Price varies</span>
+                            </div>
+                            <p class="service-desc">This is special pricing valid only on 5.8.26!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 15 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>5.8.26 BOTOX ANNIVERSARY EVENT ONLY</h4>
+                                <span class="service-price">Price varies</span>
+                            </div>
+                            <p class="service-desc">This is special pricing valid only for 5.8.26!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 15 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>5.8.26 MINI HYDRAFACIAL ANNIVERSARY EVENT</h4>
+                                <span class="service-price">$99.00</span>
+                            </div>
+                            <p class="service-desc">This is special pricing for 5.8.26 only!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                    </div>
+
+                    <!-- Consults -->
+                    <div class="service-pane" id="cat-consults">
+                        <h3 class="pane-title">Consultations</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Skincare / Skin health Consult</h4>
+                                <span class="service-price">$50.00</span>
+                            </div>
+                            <p class="service-desc">An option for those who need to know where to start! We will go over skin analysis and come up with a plan for your skins health.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Injectable Consult</h4>
+                                <span class="service-price">$50.00</span>
+                            </div>
+                            <p class="service-desc">Consultation for fillers and neuromodulators.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Visia Skin Analysis</h4>
+                                <span class="service-price">$50.00</span>
+                            </div>
+                            <p class="service-desc">In-depth objective skin imaging and mapping.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                    </div>
+
+                    <!-- Injectables, Botox & Filler -->
+                    <div class="service-pane" id="cat-injectables">
+                        <h3 class="pane-title">Injectables, Botox & Filler</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Botox</h4>
+                                <span class="service-price">$14/u</span>
+                            </div>
+                            <p class="service-desc">Smooth wrinkles and fine lines. (Price varies based on units used)</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Dysport</h4>
+                                <span class="service-price">$4.50/u</span>
+                            </div>
+                            <p class="service-desc">Neuromodulator for wrinkle reduction. (Price varies based on units used)</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Lip Flip</h4>
+                                <span class="service-price">$125.00</span>
+                            </div>
+                            <p class="service-desc">Subtle neuromodulator enhancement for top lip.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Facial Balancing with Filler</h4>
+                                <span class="service-price">Price varies</span>
+                            </div>
+                            <p class="service-desc">3+ syringes of filler. Enhance natural harmony by subtly adjusting facial proportions. This technique creates a more symmetrical, refreshed, and balanced appearance.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Cheek Filler</h4>
+                                <span class="service-price">$1,500.00</span>
+                            </div>
+                            <p class="service-desc">The answer to facial asymmetry. One syringe per side.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Lip Filler</h4>
+                                <span class="service-price">$750.00</span>
+                            </div>
+                            <p class="service-desc">Full syringe for lip volumization and structure.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Lip Filler .5ml (Half Syringe)</h4>
+                                <span class="service-price">$550.00</span>
+                            </div>
+                            <p class="service-desc">Half Syringe Only for a subtle natural enhancement.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Skinvive Injectable Hydration</h4>
+                                <span class="service-price">$650.00</span>
+                            </div>
+                            <p class="service-desc">$650/2 syringes. Minimum of 2 syringes required.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                    </div>
+
+                    <!-- Facials & Advanced -->
+                    <div class="service-pane" id="cat-facials">
+                        <h3 class="pane-title">Facials & Advanced</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Lifted & Luminous Treatment</h4>
+                                <span class="service-price">$750.00</span>
+                            </div>
+                            <p class="service-desc">The ultimate antiaging treatment for anti-aging without needles. This ZERO downtime peel from Revision Skincare is clinically proven to increase elastin production. (3 series treatment w/ free skincare bag)</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Magnolia Microcurrent Facial</h4>
+                                <span class="service-price">$200.00</span>
+                            </div>
+                            <p class="service-desc">A 60 minute facial including microcurrent. Stimulates facial muscles resulting in firmer, tighter, more lifted skin.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Oxygen Facial</h4>
+                                <span class="service-price">$160.00</span>
+                            </div>
+                            <p class="service-desc">Great for hydration, redness, acne, and targeting aging!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 45 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>50 Minute Facial</h4>
+                                <span class="service-price">$150.00</span>
+                            </div>
+                            <p class="service-desc">Tailored to your skins needs - 50 minutes of relaxation & rejuvenation.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 50 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Express Facial</h4>
+                                <span class="service-price">$95.00</span>
+                            </div>
+                            <p class="service-desc">Tailored to your skins needs this facial is for the one ‘on - the - go.’</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Dermaplaning</h4>
+                                <span class="service-price">$85.00</span>
+                            </div>
+                            <p class="service-desc">Exfoliate the epidermis of dead skin while getting rid of peach fuzz. ($70 when added to existing service)</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                    </div>
+
+                    <!-- Microneedling -->
+                    <div class="service-pane" id="cat-microneedling">
+                        <h3 class="pane-title">Microneedling</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>SkinPen Microneedling</h4>
+                                <span class="service-price">$450.00</span>
+                            </div>
+                            <p class="service-desc">An FDA approved microneedling device generating new collagen and tissue for smoother, firmer, more toned skin.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 10 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>SkinPen Microneedling with Exosomes</h4>
+                                <span class="service-price">$600.00</span>
+                            </div>
+                            <p class="service-desc">Includes Plated Calm Exosomes enhancement.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 15 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>SkinPen Microneedling Package (4)</h4>
+                                <span class="service-price">$1,550.00</span>
+                            </div>
+                            <p class="service-desc">This package includes a series of four SkinPen treatments.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 10 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>SkinPen Microneedling with Exosomes Package (4)</h4>
+                                <span class="service-price">$2,050.00</span>
+                            </div>
+                            <p class="service-desc">Save $350 with the full package of four enhanced treatments!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 15 min</span>
+                        </div>
+                    </div>
+
+                    <!-- Laser Treatments -->
+                    <div class="service-pane" id="cat-laser">
+                        <h3 class="pane-title">Laser Treatments</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Laser Consult</h4>
+                                <span class="service-price">$50.00</span>
+                            </div>
+                            <p class="service-desc">REQUIRED PRIOR TO ANY NEW LASER TREATMENTS. Consult for Tattoo Removal, Vascular Reduction, IPL Laser, & Resurfacing.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Erbium Topper</h4>
+                                <span class="service-price">$150.00</span>
+                            </div>
+                            <p class="service-desc">Light Erbium Laser enhancement that can be added onto treatments.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                    </div>
+
+                    <!-- HydraFacial -->
+                    <div class="service-pane" id="cat-hydrafacial">
+                        <h3 class="pane-title">HydraFacial</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Hydrafacial - Standard</h4>
+                                <span class="service-price">$205.00</span>
+                            </div>
+                            <p class="service-desc">This treatment deeply cleanses, extracts, and hydrates skin. Finished with LED light therapy.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>HydraFacial - Deluxe</h4>
+                                <span class="service-price">$245.00</span>
+                            </div>
+                            <p class="service-desc">Includes signature treatment, as well as a specialty skin care booster for age refinement, radiance, or acne.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 45 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>HydraFacial - Platinum</h4>
+                                <span class="service-price">$305.00</span>
+                            </div>
+                            <p class="service-desc">The ultimate HydraFacial. Lymphatic therapy, deep cleanse, extractions, hydration, specialty boosters, and LED light therapy.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>OXYGEN x HYDRAFACIAL</h4>
+                                <span class="service-price">$275.00</span>
+                            </div>
+                            <p class="service-desc">Our two favorite treatments combined!</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Deluxe HydraFacial with Dermaplaning</h4>
+                                <span class="service-price">$315.00</span>
+                            </div>
+                            <p class="service-desc">Premium HydraFacial coupled with mechanical exfoliation.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                    </div>
+
+                    <!-- Peels -->
+                    <div class="service-pane" id="cat-peels">
+                        <h3 class="pane-title">Peels & Face Reality</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>The Perfect Derma Peel I</h4>
+                                <span class="service-price">$300.00</span>
+                            </div>
+                            <p class="service-desc">Safe for all skin types, refreshes, and rejuvenates aging skin, treats acne, and minimizes pigment concerns.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 45 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>The Perfect Derma Peel II</h4>
+                                <span class="service-price">$350.00</span>
+                            </div>
+                            <p class="service-desc">The perfect derma peel + booster. Not for first time peel patients.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 45 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Face Reality Acne Peel Bootcamp - FACE</h4>
+                                <span class="service-price">$200.00</span>
+                            </div>
+                            <p class="service-desc">We recommend a series of 6 peels total- one every two weeks for best results. Requires custom regimen.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 45 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Face Reality Acne CONSULT</h4>
+                                <span class="service-price">$100.00</span>
+                            </div>
+                            <p class="service-desc">Half of the deposit will go towards your Face Reality Peel or Products</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 30 min</span>
+                        </div>
+                    </div>
+
+                    <!-- Other -->
+                    <div class="service-pane" id="cat-other">
+                        <h3 class="pane-title">PRF, Morpheus8 & Brows</h3>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Morpheus8</h4>
+                                <span class="service-price">$900.00</span>
+                            </div>
+                            <p class="service-desc">Deep fractional, radiofrequency treatment delivering exceptional skin, tissue and collagen remodeling. Tightens skin, reduces stretch marks and scars.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 15 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Morpheus8 Package</h4>
+                                <span class="service-price">$3,000.00</span>
+                            </div>
+                            <p class="service-desc">A full package series of Morpheus8 treatments.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 15 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>PRF Injections</h4>
+                                <span class="service-price">$650.00</span>
+                            </div>
+                            <p class="service-desc">Increase collagen production and get rid of the appearance of dark circles, hollow under eyes / bags, and wrinkles! (Starts at $650)</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>PRF Injections Package (3)</h4>
+                                <span class="service-price">$1,800.00</span>
+                            </div>
+                            <p class="service-desc">Package of 3 treatments.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Brow Lamination & Tint</h4>
+                                <span class="service-price">$160.00</span>
+                            </div>
+                            <p class="service-desc">Groom and tint your brows into a perfect cohesive shape.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 5 min</span>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-head">
+                                <h4>Lash Lift & Tint</h4>
+                                <span class="service-price">$120.00</span>
+                            </div>
+                            <p class="service-desc">Lash Lift Only is $80.</p>
+                            <span class="service-time"><i data-lucide="clock" class="inline-icon"></i> 1 hr 15 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Complexion Club Section -->
+    <section class="pricing-section" id="members">
+        <div class="container reveal">
+            <div class="pricing-header">
+                <span class="eyebrow">The Complexion Club</span>
+                <h2 class="section-title">Choose Your Membership</h2>
+                <div class="pricing-toggle">
+                    <span id="monthlyLabel" class="toggle-label active">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricingToggleCheckbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <span id="yearlyLabel" class="toggle-label">Yearly</span>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- The Radiance -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">The Radiance</h3>
+                    <div class="price-container">
+                        <span class="currency">$</span>
+                        <span class="price" data-monthly="99" data-yearly="75">99</span>
+                        <span class="billing-period">per<br>month</span>
+                    </div>
+                    <p class="yearly-hint" data-yearly-text="$900 billed annually">&nbsp;</p>
+                    <button class="btn btn-primary w-100">Subscribe</button>
+                    <div class="plan-includes">
+                        <p class="plan-includes-title">This includes:</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 30 Min Facial</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Dermaplaning</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 15% Off any Service (excludes injectables)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 15% Off all Products</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- The Luminary -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most popular</div>
+                    <h3 class="plan-name">The Luminary</h3>
+                    <div class="price-container">
+                        <span class="currency">$</span>
+                        <span class="price" data-monthly="149" data-yearly="116.67">149</span>
+                        <span class="billing-period">per<br>month</span>
+                    </div>
+                    <p class="yearly-hint" data-yearly-text="$1,400 billed annually">&nbsp;</p>
+                    <button class="btn btn-primary w-100">Subscribe</button>
+                    <div class="plan-includes">
+                        <p class="plan-includes-title">This includes:</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Monthly Exclusive Facial (50 min, Oxygen, Firming, Standard Hydrafacial)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Dermaplaning</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 20% Off any Service (excludes injectables)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 20% Off all Products</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Your choice of travel skincare monthly</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Access to Exclusive Members Club (Special email list, Event, Etc.)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 10% off all services at Monroe Massage</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Complimentary Hot Stone Upgrade (Monroe Massage)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- The Magnolia -->
+                <div class="pricing-card">
+                    <h3 class="plan-name">The Magnolia</h3>
+                    <div class="price-container">
+                        <span class="currency">$</span>
+                        <span class="price" data-monthly="299" data-yearly="250">299</span>
+                        <span class="billing-period">per<br>month</span>
+                    </div>
+                    <p class="yearly-hint" data-yearly-text="$3,000 billed annually">&nbsp;</p>
+                    <button class="btn btn-primary w-100">Subscribe</button>
+                    <div class="plan-includes">
+                        <p class="plan-includes-title">This includes:</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Monthly Premium Facial (Light Erbium Laser, Deluxe Hydrafacial or Microcurrent)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Dermaplaning</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 20% Off any service (excludes injectables)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 20% Off all products</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 10% Off Botox or Dysport</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Refill on Magnolia Signature Candle</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Free product anytime a brand we carry debuts new product</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> 60 Minute Massage Monthly (Monroe Massage)</li>
+                            <li><i data-lucide="check-circle-2" class="gold-icon"></i> Access to Exclusive Members Club (Special email list, Event, Etc.)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>MAGNOLIA<br><span class="fw-light">MED SPA</span></h2>
+                <p class="footer-desc mt-4">Advanced practice providers providing custom treatment plans and natural results.</p>
+                <div class="social-links mt-6">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <a href="#">About</a>
+                <a href="#">Treatments</a>
+                <a href="#">Shop All</a>
+                <a href="#">Locations</a>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="#">Members Portal</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">FAQ & Contact</a>
+                <a href="#">Privacy / Terms</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Join Our Newsletter</h4>
+                <p class="text-sm op-7 mb-4">Get exclusive offers and skincare tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary btn-icon"><i data-lucide="arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Magnolia Med Spa. All rights reserved.</p>
+            <p>Designed with luxury in mind.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
