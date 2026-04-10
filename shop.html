@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Magnolia Med Spa</title>
+    <meta name="description" content="Shop luxury medical-grade skincare products at Magnolia Med Spa. EltaMD, Revision Skincare, Face Reality, and more.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">MAGNOLIA</a>
+            <div class="nav-links desktop-only">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#treatments" class="nav-link">Treatments</a>
+                <a href="#" class="nav-link">Shop</a>
+                <a href="index.html#members" class="nav-link">Members</a>
+            </div>
+            <div class="nav-actions">
+                <a href="index.html#book" class="btn btn-outline btn-sm desktop-only">Book Now</a>
+                <button class="icon-btn" aria-label="Cart"><i data-lucide="shopping-bag"></i></button>
+                <button class="icon-btn mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shop Page Main Content -->
+    <main class="shop-page-wrapper">
+        <header class="shop-header container">
+            <h1>Skincare Essentials</h1>
+            <p>Curated medical-grade favorites handpicked for your routine.</p>
+        </header>
+
+        <section class="shop-container">
+            
+            <!-- Sidebar Filters -->
+            <aside class="shop-sidebar">
+                <div class="filter-group">
+                    <h4>Filter by Concern</h4>
+                    <ul class="filter-list">
+                        <li><input type="checkbox"> Acne & Blemishes</li>
+                        <li><input type="checkbox"> Anti-Aging</li>
+                        <li><input type="checkbox"> Dryness</li>
+                        <li><input type="checkbox"> Redness</li>
+                        <li><input type="checkbox"> Sun Protection</li>
+                    </ul>
+                </div>
+                
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <ul class="filter-list">
+                        <li><input type="checkbox"> Under $50</li>
+                        <li><input type="checkbox"> $50 - $100</li>
+                        <li><input type="checkbox"> $100 - $150</li>
+                        <li><input type="checkbox"> Over $150</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Main Shop Content -->
+            <div class="shop-content">
+                
+                <!-- Category Tabs -->
+                <div class="shop-top-bar">
+                    <div class="shop-categories">
+                        <button class="cat-btn active">All</button>
+                        <button class="cat-btn">Face Reality</button>
+                        <button class="cat-btn">Revision Skincare</button>
+                        <button class="cat-btn">Elta MD</button>
+                        <button class="cat-btn">ZO Skin Health</button>
+                        <button class="cat-btn">Colorescience</button>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="shop-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Elta MD UV Clear Broad-Spectrum" class="product-img">
+                        </div>
+                        <span class="product-brand">Elta MD</span>
+                        <h3 class="product-title">UV Clear Broad-Spectrum SPF 46</h3>
+                        <p class="product-price">$41.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Elta MD UV Daily Tinted" class="product-img">
+                        </div>
+                        <span class="product-brand">Elta MD</span>
+                        <h3 class="product-title">UV Daily Tinted Broad-Spectrum SPF 40</h3>
+                        <p class="product-price">$38.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Elta MD UV Physical" class="product-img">
+                        </div>
+                        <span class="product-brand">Elta MD</span>
+                        <h3 class="product-title">UV Physical Broad-Spectrum SPF 41</h3>
+                        <p class="product-price">$36.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare Intellishade" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">Intellishade Original SPF 45</h3>
+                        <p class="product-price">$84.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare Nectifirm" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">Nectifirm Advanced</h3>
+                        <p class="product-price">$165.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare Hydrating Serum" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">Hydrating Serum</h3>
+                        <p class="product-price">$98.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 7 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare Papaya Enzyme Cleanser" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">Papaya Enzyme Cleanser</h3>
+                        <p class="product-price">$38.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 8 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare YouthFull Lip" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">YouthFull Lip Replenisher</h3>
+                        <p class="product-price">$38.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+                    
+                    <!-- Product 9 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_black.png" alt="Revision Skincare C+ Correcting Complex" class="product-img">
+                        </div>
+                        <span class="product-brand">Revision Skincare</span>
+                        <h3 class="product-title">C+ Correcting Complex 30%</h3>
+                        <p class="product-price">$170.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 10 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Face Reality Ultra Gentle Cleanser" class="product-img">
+                        </div>
+                        <span class="product-brand">Face Reality</span>
+                        <h3 class="product-title">Ultra Gentle Cleanser</h3>
+                        <p class="product-price">$28.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 11 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Face Reality Clearderm Complex" class="product-img">
+                        </div>
+                        <span class="product-brand">Face Reality</span>
+                        <h3 class="product-title">Clearderm Complex</h3>
+                        <p class="product-price">$31.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <!-- Product 12 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_silver.png" alt="Face Reality Moisture Balance Toner" class="product-img">
+                        </div>
+                        <span class="product-brand">Face Reality</span>
+                        <h3 class="product-title">Moisture Balance Toner</h3>
+                        <p class="product-price">$26.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+                    
+                    <!-- Product 13 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_white.png" alt="ZO Skin Health Daily Power Defense" class="product-img">
+                        </div>
+                        <span class="product-brand">ZO Skin Health</span>
+                        <h3 class="product-title">Daily Power Defense</h3>
+                        <p class="product-price">$150.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+                    
+                    <!-- Product 14 -->
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/product_white.png" alt="ZO Skin Health Exfoliating Polish" class="product-img">
+                        </div>
+                        <span class="product-brand">ZO Skin Health</span>
+                        <h3 class="product-title">Exfoliating Polish</h3>
+                        <p class="product-price">$68.00</p>
+                        <button class="btn-add-cart"><i data-lucide="shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>MAGNOLIA<br><span class="fw-light">MED SPA</span></h2>
+                <p class="footer-desc mt-4">Advanced practice providers providing custom treatment plans and natural results.</p>
+                <div class="social-links mt-6">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <a href="index.html#about">About</a>
+                <a href="index.html#treatments">Treatments</a>
+                <a href="#">Shop All</a>
+                <a href="#">Locations</a>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="#">Members Portal</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">FAQ & Contact</a>
+                <a href="#">Privacy / Terms</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Join Our Newsletter</h4>
+                <p class="text-sm op-7 mb-4">Get exclusive offers and skincare tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary btn-icon"><i data-lucide="arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Magnolia Med Spa. All rights reserved.</p>
+            <p>Designed with luxury in mind.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
