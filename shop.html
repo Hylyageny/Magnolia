@@ -286,6 +286,36 @@
         </div>
     </footer>
 
+    <!-- Chatbot Widget -->
+    <div id="chatWidget" class="chat-widget">
+        <button id="chatToggle" class="chat-toggle" aria-label="Open Chat">
+            <i data-lucide="message-circle"></i>
+        </button>
+        <div id="chatWindow" class="chat-window">
+            <div class="chat-header">
+                <div>
+                    <h4>Magnolia Concierge</h4>
+                    <p class="text-sm text-muted">We usually reply instantly</p>
+                </div>
+                <button id="chatClose" class="icon-btn btn-sm"><i data-lucide="x"></i></button>
+            </div>
+            <div id="chatMessages" class="chat-messages">
+                <div class="chat-bubble bot">
+                    Hello! I'm your Magnolia Concierge. How can I help you today?
+                </div>
+                <div class="chat-quick-replies">
+                    <button class="quick-reply" data-text="What are your memberships?">Memberships</button>
+                    <button class="quick-reply" data-text="How much is Botox?">Botox</button>
+                    <button class="quick-reply" data-text="How do I book?">Book</button>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button id="chatSend" class="icon-btn"><i data-lucide="send"></i></button>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="./scripts/main.js"></script>
     <script>
