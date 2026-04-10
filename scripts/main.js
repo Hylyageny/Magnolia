@@ -4,12 +4,19 @@ lucide.createIcons();
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Navigation Scroll Effect
     const navbar = document.getElementById('mainNav');
+    let isScrolling = false;
     
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
+        if (!isScrolling) {
+            window.requestAnimationFrame(() => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                isScrolling = false;
+            });
+            isScrolling = true;
         }
     });
 
@@ -55,15 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // 4. Parallax effect for hero background (optional)
-    const heroBg = document.querySelector('.hero-bg');
-    if (heroBg) {
-        window.addEventListener('scroll', () => {
-            const scrollPos = window.scrollY;
-            heroBg.style.transform = `translateY(${scrollPos * 0.3}px)`;
-        });
-    }
 
     // 5. Pricing Toggle Logic
     const toggleCheckbox = document.getElementById('pricingToggleCheckbox');
